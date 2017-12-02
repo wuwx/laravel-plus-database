@@ -1,0 +1,25 @@
+{
+    "name": "wuwx/laravel-plus-database",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Wu Weixin",
+            "email": "wuweixin@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wuwx\\LaravelPlusDatabase\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wuwx\\LaravelPlusDatabase\\LaravelPlusDatabaseServiceProvider"
+            ]
+        }
+    }
+}
