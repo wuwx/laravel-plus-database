@@ -1,6 +1,8 @@
 {
     "name": "wuwx/laravel-plus-database",
     "type": "library",
+    "keywords": ["laravel", "plus", "database"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Wu Weixin",
